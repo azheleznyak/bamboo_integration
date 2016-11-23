@@ -9,8 +9,8 @@ public class Tests {
         assertEquals(true,true);
     }
 
-    @Test
+    /*@Test
     public void testFailed(){
         assertEquals(true,true);
-    }
+    } */
 }
