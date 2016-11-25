@@ -16,6 +16,7 @@ public class Tests {
     }
 
     @Test
+    @Ignore
     public void testFailed(){
         assertEquals(true,true);
     }
