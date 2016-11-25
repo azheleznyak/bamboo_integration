@@ -11,8 +11,13 @@ public class Tests {
     }
 
     @Test
+    public void testPassed2(){
+        assertEquals(true,true);
+    }
+
+    @Test
     public void testFailed(){
-        assertEquals(true,false);
+        assertEquals(true,true);
     }
 
     @Test
