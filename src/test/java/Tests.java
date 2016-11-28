@@ -3,6 +3,8 @@
  */
 import org.junit.Ignore;
 import org.junit.Test;
+
+import static java.lang.Thread.sleep;
 import static org.junit.Assert.assertEquals;
 public class Tests {
     @Test
@@ -12,7 +14,7 @@ public class Tests {
 
     @Test
     public void testPassed2(){
-        assertEquals(true,true);
+        assertEquals(true,false);
     }
 
     @Test
