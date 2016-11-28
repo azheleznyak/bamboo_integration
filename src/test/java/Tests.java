@@ -16,14 +16,19 @@ public class Tests {
     }
 
     @Test
-    @Ignore
     public void testFailed(){
-        assertEquals(true,true);
+        assertEquals(true,false);
     }
 
     @Test
     @Ignore
     public void testWarning(){
+        assertEquals(true,false);
+    }
+
+    @Test
+    @Ignore
+    public void testWarning2(){
         assertEquals(true,false);
     }
 }
