@@ -21,14 +21,13 @@ public class Tests {
     }
 
     @Test
-    @Ignore
+
     public void testWarning(){
-        assertEquals(true,false);
+        assertEquals(true,true);
     }
 
     @Test
-    @Ignore
     public void testWarning2(){
-        assertEquals(true,false);
+        assertEquals(true,true);
     }
 }
