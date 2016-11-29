@@ -14,7 +14,7 @@ public class Tests {
 
     @Test
     public void testPassed2(){
-        assertEquals(true,false);
+        assertEquals(true,true);
     }
 
     @Test
@@ -23,9 +23,8 @@ public class Tests {
     }
 
     @Test
-
     public void testWarning(){
-        assertEquals(true,true);
+        assertEquals(true,false);
     }
 
     @Test
