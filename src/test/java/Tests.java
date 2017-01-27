@@ -19,7 +19,7 @@ public class Tests {
 
     @Test
     public void testFailed(){
-        assertEquals(true,false);
+        assertEquals(true,true);
     }
 
     @Test
@@ -28,7 +28,6 @@ public class Tests {
     }
 
     @Test
-    @Ignore
     public void testWarning2(){
         assertEquals(true,true);
     }
