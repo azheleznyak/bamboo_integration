@@ -9,6 +9,6 @@
  public class Tests3 {
      @Test
      public void testPassed(){
-         assertEquals(true,true);
+         assertEquals(true,false);
      }
  }
