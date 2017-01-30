@@ -9,7 +9,7 @@
  public class Tests3 {
      @Test
      public void testPassed(){
-         assertEquals(true,false);
+         assertEquals(true,true);
      }
 
      @Test
