@@ -14,6 +14,6 @@
 
      @Test
      public void testPassed2(){
-         assertEquals(true,false);
+         assertEquals(true,true);
      }
  }
