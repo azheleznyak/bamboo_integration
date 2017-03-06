@@ -9,11 +9,13 @@ import static org.junit.Assert.assertEquals;
 public class Tests {
     @Test
     public void testPassed(){
+        System.out.println("testPassed");
         assertEquals(true,true);
     }
 
     @Test
     public void testPassed2(){
+        System.out.println("testPassed2");
         assertEquals(true,true);
     }
 
